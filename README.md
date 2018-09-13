@@ -29,7 +29,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 ## Video Walkthrough
 
-![](HONY_Tumblr_userscreen.gif)
+![](Images/HONY_Tumblr_userscreen.gif)
 
 ## Notes
 
