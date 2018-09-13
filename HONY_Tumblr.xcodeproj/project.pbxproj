@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73B05A200BF8A13B66899B9B /* Pods_HONY_Tumblr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44978EA4AC8E72EB05B9A60B /* Pods_HONY_Tumblr.framework */; };
 		A039AB1A2149B02800732C8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A039AB192149B02800732C8A /* AppDelegate.swift */; };
-		A039AB1C2149B02800732C8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A039AB1B2149B02800732C8A /* ViewController.swift */; };
 		A039AB1F2149B02800732C8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A039AB1D2149B02800732C8A /* Main.storyboard */; };
 		A039AB212149B02C00732C8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A039AB202149B02C00732C8A /* Assets.xcassets */; };
 		A039AB242149B02C00732C8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A039AB222149B02C00732C8A /* LaunchScreen.storyboard */; };
+		A039AB2E2149BC4E00732C8A /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A039AB2D2149BC4E00732C8A /* UserViewController.swift */; };
+		A039AB312149C65B00732C8A /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A039AB302149C65B00732C8A /* PhotoCell.swift */; };
+		A039AB332149CAD800732C8A /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A039AB322149CAD800732C8A /* CustomTableViewController.swift */; };
+		A039AB352149CD3600732C8A /* Custom.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A039AB342149CD3600732C8A /* Custom.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AD6937DB4AB4CF4F2E84B24 /* Pods-HONY_Tumblr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HONY_Tumblr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HONY_Tumblr/Pods-HONY_Tumblr.debug.xcconfig"; sourceTree = "<group>"; };
+		44978EA4AC8E72EB05B9A60B /* Pods_HONY_Tumblr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HONY_Tumblr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7357B61ABF140994BEEF5E5B /* Pods-HONY_Tumblr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HONY_Tumblr.release.xcconfig"; path = "Pods/Target Support Files/Pods-HONY_Tumblr/Pods-HONY_Tumblr.release.xcconfig"; sourceTree = "<group>"; };
 		A039AB162149B02800732C8A /* HONY_Tumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HONY_Tumblr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A039AB192149B02800732C8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A039AB1B2149B02800732C8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A039AB1E2149B02800732C8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A039AB202149B02C00732C8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A039AB232149B02C00732C8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A039AB252149B02C00732C8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A039AB2D2149BC4E00732C8A /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		A039AB302149C65B00732C8A /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		A039AB322149CAD800732C8A /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
+		A039AB342149CD3600732C8A /* Custom.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Custom.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73B05A200BF8A13B66899B9B /* Pods_HONY_Tumblr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E2645A35D0B6FB5FF957CD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44978EA4AC8E72EB05B9A60B /* Pods_HONY_Tumblr.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A039AB0D2149B02800732C8A = {
 			isa = PBXGroup;
 			children = (
 				A039AB182149B02800732C8A /* HONY_Tumblr */,
 				A039AB172149B02800732C8A /* Products */,
+				F8554BBB3A97D75A25902BBE /* Pods */,
+				8E2645A35D0B6FB5FF957CD2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +75,34 @@
 		A039AB182149B02800732C8A /* HONY_Tumblr */ = {
 			isa = PBXGroup;
 			children = (
+				A039AB2F2149BC8F00732C8A /* ViewControllers */,
 				A039AB192149B02800732C8A /* AppDelegate.swift */,
-				A039AB1B2149B02800732C8A /* ViewController.swift */,
 				A039AB1D2149B02800732C8A /* Main.storyboard */,
+				A039AB302149C65B00732C8A /* PhotoCell.swift */,
 				A039AB202149B02C00732C8A /* Assets.xcassets */,
 				A039AB222149B02C00732C8A /* LaunchScreen.storyboard */,
 				A039AB252149B02C00732C8A /* Info.plist */,
+				A039AB342149CD3600732C8A /* Custom.storyboard */,
 			);
 			path = HONY_Tumblr;
+			sourceTree = "<group>";
+		};
+		A039AB2F2149BC8F00732C8A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A039AB2D2149BC4E00732C8A /* UserViewController.swift */,
+				A039AB322149CAD800732C8A /* CustomTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F8554BBB3A97D75A25902BBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AD6937DB4AB4CF4F2E84B24 /* Pods-HONY_Tumblr.debug.xcconfig */,
+				7357B61ABF140994BEEF5E5B /* Pods-HONY_Tumblr.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A039AB282149B02C00732C8A /* Build configuration list for PBXNativeTarget "HONY_Tumblr" */;
 			buildPhases = (
+				6807CB4EC6FD3F898E7E35D7 /* [CP] Check Pods Manifest.lock */,
 				A039AB122149B02800732C8A /* Sources */,
 				A039AB132149B02800732C8A /* Frameworks */,
 				A039AB142149B02800732C8A /* Resources */,
+				4E6C636463A33C19B8F3A2C9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,18 +168,62 @@
 				A039AB242149B02C00732C8A /* LaunchScreen.storyboard in Resources */,
 				A039AB212149B02C00732C8A /* Assets.xcassets in Resources */,
 				A039AB1F2149B02800732C8A /* Main.storyboard in Resources */,
+				A039AB352149CD3600732C8A /* Custom.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E6C636463A33C19B8F3A2C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HONY_Tumblr/Pods-HONY_Tumblr-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HONY_Tumblr/Pods-HONY_Tumblr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6807CB4EC6FD3F898E7E35D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HONY_Tumblr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A039AB122149B02800732C8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A039AB1C2149B02800732C8A /* ViewController.swift in Sources */,
+				A039AB332149CAD800732C8A /* CustomTableViewController.swift in Sources */,
 				A039AB1A2149B02800732C8A /* AppDelegate.swift in Sources */,
+				A039AB312149C65B00732C8A /* PhotoCell.swift in Sources */,
+				A039AB2E2149BC4E00732C8A /* UserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +365,7 @@
 		};
 		A039AB292149B02C00732C8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AD6937DB4AB4CF4F2E84B24 /* Pods-HONY_Tumblr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +384,7 @@
 		};
 		A039AB2A2149B02C00732C8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7357B61ABF140994BEEF5E5B /* Pods-HONY_Tumblr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
