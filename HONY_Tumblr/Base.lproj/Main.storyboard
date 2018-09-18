@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -26,15 +27,30 @@
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PhotoCell" rowHeight="311" id="qwr-Dz-GoI" customClass="PhotoCell" customModule="HONY_Tumblr" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="311"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qwr-Dz-GoI" id="whZ-lO-U0Z">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qwr-Dz-GoI" id="whZ-lO-U0Z">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="310.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N0q-c6-UNJ">
-                                                    <rect key="frame" x="0.0" y="-12" width="375" height="301"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N0q-c6-UNJ">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="311"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="375" id="D7D-kz-iO5"/>
+                                                        <constraint firstAttribute="width" constant="375" id="LcT-5x-aJh"/>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="311" id="rqR-uz-UKS"/>
+                                                        <constraint firstAttribute="height" constant="263" id="vZO-m7-2tQ"/>
+                                                    </constraints>
                                                 </imageView>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="N0q-c6-UNJ" firstAttribute="top" secondItem="whZ-lO-U0Z" secondAttribute="topMargin" id="1TW-nG-2SJ"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="N0q-c6-UNJ" secondAttribute="bottom" constant="49" id="4fh-kG-nVh"/>
+                                                <constraint firstItem="N0q-c6-UNJ" firstAttribute="trailing" secondItem="whZ-lO-U0Z" secondAttribute="trailingMargin" id="SBT-Sj-1lm"/>
+                                                <constraint firstItem="N0q-c6-UNJ" firstAttribute="leading" secondItem="whZ-lO-U0Z" secondAttribute="leading" id="WMr-Fr-BaZ"/>
+                                                <constraint firstItem="N0q-c6-UNJ" firstAttribute="leading" secondItem="whZ-lO-U0Z" secondAttribute="leadingMargin" constant="14" id="amA-6N-8zx"/>
+                                                <constraint firstItem="N0q-c6-UNJ" firstAttribute="top" secondItem="whZ-lO-U0Z" secondAttribute="top" id="tCa-85-lab"/>
+                                                <constraint firstAttribute="bottom" secondItem="N0q-c6-UNJ" secondAttribute="bottom" constant="-0.5" id="uC9-yv-Z2n"/>
+                                                <constraint firstAttribute="trailing" secondItem="N0q-c6-UNJ" secondAttribute="trailing" id="zlJ-0v-gdZ"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="photoImageView" destination="N0q-c6-UNJ" id="q1e-WW-27D"/>
@@ -53,6 +69,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-496.80000000000001" y="91.304347826086968"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="oBL-xx-Mgt">
+            <objects>
+                <viewController id="O5P-4G-XgN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Eu-sI-MyW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="qXZ-5n-pQs"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="icc-ve-8bh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="191" y="207"/>
         </scene>
     </scenes>
 </document>
