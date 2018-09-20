@@ -20,11 +20,6 @@ The following **stretch** user stories are implemented:
 
 
 
-## Video Walkthrough
-
-![](Images/HONY_Tumblr_userscreen.gif)
-
-
 # Lab 2 - *HONYTumblr-Feed
 **HONYTumblr-Feed** is a photo browsing app app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts).
 
