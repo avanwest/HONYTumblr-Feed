@@ -18,34 +18,23 @@ The following **stretch** user stories are implemented:
 - [ ] User sees image transition for images coming from network, not when it is loaded from cache (+1pt)
 - [ ] Customize the selection effect of the cell (+1pt)
 
-The following **additional** user stories are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality! (+1-3pts)
-
-Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
-
-1. 
-2.
 
 ## Video Walkthrough
 
 ![](Images/HONY_Tumblr_userscreen.gif)
 
-## Notes
-
-My main challenge as you can see is getting the photos spaced out in each cell...
-Will continue to work on this to fix it. 
 
 # Lab 2 - *HONYTumblr-Feed
-**Name of your app** is a photo browsing app app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts).
+**HONYTumblr-Feed** is a photo browsing app app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts).
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours spent in total
 
 ## User Stories
 
 The following **required** user stories are complete:
 
-- [ ] User can tab an image to view a larger image in a detail view (5pts)
+- [ x] User can tab an image to view a larger image in a detail view (5pts)
 
 The following **stretch** user stories are implemented:
 
@@ -53,26 +42,13 @@ The following **stretch** user stories are implemented:
 - [ ] Zoomable Photo View (+2pt)
 - [ ] Infinite Scrolling (+2pt)
 
-The following **additional** user stories are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality! (+1-3pts)
-
-Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
-
-1.
-2.
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+![](Images/HONY_Tumblr_UserScreen2.gif)
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
-
-## Notes
-
-Describe any challenges encountered while building the app.
 
 ## License
 
