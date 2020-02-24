@@ -1,5 +1,5 @@
 # HONYTumblr-Feed
-Simple app to parse the Tumblr image blog, Humans of New York
+Simple iOS app to parse the Tumblr image blog, Humans of New York
 
 **HONYTumblr** is a photo browsing app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts).
 
